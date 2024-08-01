@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.contenedor-sidebar {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 300px;
+  padding-right: 20px;
+}
+
+.logo {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#textoFuncionamientoApp {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#contenedorBotonesAccesibilidad {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.boton-accesibilidad {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: none;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  aspect-ratio: 1 / 0.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.secciones-nav {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.mapa {
+  flex-grow: 1;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  color: #777;
+}
+
+#newsletter {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#newsletter p {
+  margin-bottom: 8px;
+}
+
+#newsletter input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#newsletter button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
